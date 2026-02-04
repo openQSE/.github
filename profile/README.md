@@ -105,6 +105,21 @@ The project evolves through discussion, working groups, and reference implementa
 
 ---
 
+## Reference Implementation
+
+To demonstrate the feasibility and practicality of the proposed software interfaces, openQSE initiative includes the development of a reference implementation.
+
+This implementation is **not built from scratch**. Instead, it is assembled from existing, widely used components that are adapted to conform to the openQSE interface specifications. Where appropriate, multiple functionally similar components (for example, different compiler toolchains) will be integrated through the same interfaces to validate the generality and flexibility of the openQSE architecture.
+
+The reference implementation serves two complementary purposes:
+
+* **Validation**: It provides concrete evidence that the proposed interfaces can support real systems, diverse implementations, and heterogeneous hardware without requiring a monolithic software stack.
+* **Adoption support**: It offers an open-source starting point for HPC centers integrating quantum systems, and a practical guide for software providers developing components that implement or interoperate with openQSE interfaces.
+
+The reference implementation is intended to evolve alongside the specifications, reflecting community feedback and emerging requirements while remaining a non-prescriptive example rather than a mandated solution.
+
+---
+
 ## Getting Involved
 
 If you are interested in contributing to or following openQSE:
